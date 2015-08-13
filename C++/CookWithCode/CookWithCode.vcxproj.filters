@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="inc\Ingredients">
+      <UniqueIdentifier>{0357fa5a-219a-4b26-8363-0ab7f063e84a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ingredients">
+      <UniqueIdentifier>{ac9f6186-08d0-43f8-b466-0e922cbc5d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Ingredients\Baking">
+      <UniqueIdentifier>{fc8a64c7-6fd4-40e1-a821-d13993a8afcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ingredients\Baking">
+      <UniqueIdentifier>{4372edfb-c366-41e4-b5ab-cdbe6a0931e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Ingredients\Dairy">
+      <UniqueIdentifier>{cb5d18fb-fe68-4200-951c-41a1bb8d40f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ingredients\Dairy">
+      <UniqueIdentifier>{8eeb69f4-07f8-4acf-a988-6f543536c1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Ingredients\Flavorings">
+      <UniqueIdentifier>{38339014-5aa9-4575-8f51-7066af1a93e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ingredients\Flavorings">
+      <UniqueIdentifier>{236df5f4-5a92-4130-9965-815bb3282cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Ingredients\Nuts">
+      <UniqueIdentifier>{524f295b-7b88-4d4f-90c2-0c7f5716eaf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ingredients\Nuts">
+      <UniqueIdentifier>{dfeb30eb-3cb6-4bdd-8fa4-0936b205bc67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Ingredients\Spices">
+      <UniqueIdentifier>{cb1d92b9-723a-46ae-b0a8-a0c0ded086ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ingredients\Spices">
+      <UniqueIdentifier>{b574a16c-b1e2-4194-abe0-0c0f8fe7612b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Ingredients\Sweeteners">
+      <UniqueIdentifier>{065ff06e-cfe5-4dee-8131-fdb265ead1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ingredients\Sweeteners">
+      <UniqueIdentifier>{a903e581-e828-40f4-adc6-cef5bdcda70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Equipment">
+      <UniqueIdentifier>{3162bee7-56d5-4a3a-ab8e-f800452cdb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Equipment">
+      <UniqueIdentifier>{05c1d7b3-eed4-4635-86b4-17a3e77c7420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Equipment\Heating">
+      <UniqueIdentifier>{fa3ecab0-997d-4465-98f7-f2d1fe39a098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Equipment\Heating">
+      <UniqueIdentifier>{69394a3d-1fdd-4fd7-97ff-4f90ec7d8173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Equipment\Motorized">
+      <UniqueIdentifier>{3d8f21e1-0ee8-44a5-97e3-fcc9379cd10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Equipment\Motorized">
+      <UniqueIdentifier>{ac7345a0-eebd-4dc0-89cd-3fd9cb94579d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\Equipment.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Recipe.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Units.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients\Ingredient.hpp">
+      <Filter>inc\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Equipment\Equipment.hpp">
+      <Filter>inc\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\CookWithCode.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients\Baking\BakingSoda.hpp">
+      <Filter>inc\Ingredients\Baking</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients\Baking\ChocolateChips.hpp">
+      <Filter>inc\Ingredients\Baking</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients\Baking\Flour.hpp">
+      <Filter>inc\Ingredients\Baking</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients\Dairy\Butter.hpp">
+      <Filter>inc\Ingredients\Dairy</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients\Dairy\Egg.hpp">
+      <Filter>inc\Ingredients\Dairy</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients\Flavorings\VanillaExtract.hpp">
+      <Filter>inc\Ingredients\Flavorings</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients\Nuts\Walnuts.hpp">
+      <Filter>inc\Ingredients\Nuts</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients\Spices\Salt.hpp">
+      <Filter>inc\Ingredients\Spices</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients\Sweeteners\BrownSugar.hpp">
+      <Filter>inc\Ingredients\Sweeteners</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Ingredients\Sweeteners\GranulatedSugar.hpp">
+      <Filter>inc\Ingredients\Sweeteners</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Equipment\Heating\Microwave.hpp">
+      <Filter>inc\Equipment\Heating</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Equipment\Heating\Oven.hpp">
+      <Filter>inc\Equipment\Heating</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Equipment\Motorized\StandMixer.hpp">
+      <Filter>inc\Equipment\Motorized</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Equipment.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Recipe.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Equipment\Equipment.cpp">
+      <Filter>src\Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ingredients\Ingredient.cpp">
+      <Filter>src\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Equipment\Heating\Microwave.cpp">
+      <Filter>src\Equipment\Heating</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Equipment\Heating\Oven.cpp">
+      <Filter>src\Equipment\Heating</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Equipment\Heating\StandMixer.cpp">
+      <Filter>src\Equipment\Motorized</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ingredients\Baking\BakingSoda.cpp">
+      <Filter>src\Ingredients\Baking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ingredients\Baking\ChocolateChips.cpp">
+      <Filter>src\Ingredients\Baking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ingredients\Baking\Flour.cpp">
+      <Filter>src\Ingredients\Baking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ingredients\Dairy\Butter.cpp">
+      <Filter>src\Ingredients\Dairy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ingredients\Dairy\Egg.cpp">
+      <Filter>src\Ingredients\Dairy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ingredients\Nuts\Walnuts.cpp">
+      <Filter>src\Ingredients\Nuts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ingredients\Flavorings\VanillaExtract.cpp">
+      <Filter>src\Ingredients\Flavorings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ingredients\Spices\Salt.cpp">
+      <Filter>src\Ingredients\Spices</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ingredients\Sweeteners\BrownSugar.cpp">
+      <Filter>src\Ingredients\Sweeteners</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ingredients\Sweeteners\GranulatedSugar.cpp">
+      <Filter>src\Ingredients\Sweeteners</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
