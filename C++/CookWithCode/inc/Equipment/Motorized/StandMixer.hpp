@@ -25,6 +25,7 @@ namespace Equipment
          // Start the stand mixer at the specified speed
          void start (Speed speed);
 
-      protected:
+      public:
+         IngredientContainer ingredients;
    };
 }

@@ -17,6 +17,7 @@
     <ClInclude Include="inc\Equipment\Equipment.hpp" />
     <ClInclude Include="inc\Equipment\Heating\Microwave.hpp" />
     <ClInclude Include="inc\Equipment\Heating\Oven.hpp" />
+    <ClInclude Include="inc\Equipment\IngredientContainer.hpp" />
     <ClInclude Include="inc\Equipment\Motorized\StandMixer.hpp" />
     <ClInclude Include="inc\Ingredients.hpp" />
     <ClInclude Include="inc\Ingredients\Baking\BakingSoda.hpp" />
@@ -39,6 +40,7 @@
     <ClCompile Include="src\Equipment\Heating\Microwave.cpp" />
     <ClCompile Include="src\Equipment\Heating\Oven.cpp" />
     <ClCompile Include="src\Equipment\Heating\StandMixer.cpp" />
+    <ClCompile Include="src\Equipment\IngredientContainer.cpp" />
     <ClCompile Include="src\Ingredients\Baking\BakingSoda.cpp" />
     <ClCompile Include="src\Ingredients\Baking\ChocolateChips.cpp" />
     <ClCompile Include="src\Ingredients\Baking\Flour.cpp" />

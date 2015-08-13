@@ -18,15 +18,17 @@ class ChocolateChipCookies : public Recipe
       Ingredients::BakingSoda baking_soda {1.0f, Units::Volume::TEASPOON};
       Ingredients::Salt salt {0.5f, Units::Volume::TEASPOON};
       std::vector<Ingredients::Flour> flour {
-         Ingredients::Flour (1.0f, Units::Volume::CUP),
-         Ingredients::Flour (1.0f, Units::Volume::CUP),
-         Ingredients::Flour (1.0f, Units::Volume::CUP)
+            Ingredients::Flour (1.0f, Units::Volume::CUP),
+            Ingredients::Flour (1.0f, Units::Volume::CUP),
+            Ingredients::Flour (1.0f, Units::Volume::CUP)
       };
       Ingredients::ChocolateChips chocolate_chips {2.0f, Units::Volume::CUP};
       Ingredients::Walnuts chopped_walnuts {1.0f, Units::Volume::CUP};
 
    public:
-      ChocolateChipCookies () {}
+      ChocolateChipCookies () :
+         Recipe ("Chocolate Chip Cookies", "dessert", "Dora", "http://m.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/")
+      {}
       ~ChocolateChipCookies () {}
 
       void prepareRecipe (void)
@@ -49,7 +51,7 @@ class ChocolateChipCookies : public Recipe
          while (!stand_mixer.ingredients.smooth ()) {
          }
 
-         // Beat in two eggs one at a time
+         // Beat in two eggs, one at a time
          std::for_each (eggs.begin (), eggs.end (), [&] (Ingredients::Egg &egg) {
             stand_mixer.addIngredient (egg);
          });

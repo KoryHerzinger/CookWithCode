@@ -134,6 +134,9 @@
     <ClInclude Include="inc\Equipment\Motorized\StandMixer.hpp">
       <Filter>inc\Equipment\Motorized</Filter>
     </ClInclude>
+    <ClInclude Include="inc\Equipment\IngredientContainer.hpp">
+      <Filter>inc\Equipment</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Equipment.cpp">
@@ -186,6 +189,9 @@
     </ClCompile>
     <ClCompile Include="src\Ingredients\Sweeteners\GranulatedSugar.cpp">
       <Filter>src\Ingredients\Sweeteners</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Equipment\IngredientContainer.cpp">
+      <Filter>src\Equipment</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
